@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 *,
 *::after,
 *::before {
@@ -6,14 +7,7 @@
 	box-sizing: border-box;
 }
 
-@font-face {
-	font-family: "outfit";
-	src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
-}
-@font-face {
-	font-family: "young-serif";
-	src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
-}
+
 
 :root {
 	--Nutmeg: hsl(14, 45%, 36%);
@@ -36,11 +30,11 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	background-color: var(--Eggshell);
-	font-family: "outfit";
+	font-family: "Outfit", sans-serif;
 
 	h1,
 	h2 {
-		font-family: "young-serif";
+		font-family: "Young Serif", serif;
 	}
 
 	main {
